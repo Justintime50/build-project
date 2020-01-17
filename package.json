@@ -1,0 +1,33 @@
+{
+  "name": "build-project",
+  "version": "0.1.0",
+  "description": "Build a Laravel, Javascript, or Wordpress project quickly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "build",
+    "project",
+    "laravel",
+    "npm",
+    "wordpress",
+    "javascript"
+  ],
+  "author": "Justintime50",
+  "license": "MIT",
+  "dependencies": {
+    "build-readme": "^1.1.1",
+    "chalk": "^3.0.0",
+    "clear": "^0.1.0",
+    "figlet": "^1.2.4",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "bin": {
+    "build-project": "./index.js"
+  }
+}
