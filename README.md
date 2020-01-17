@@ -7,7 +7,7 @@ Build a Laravel, Javascript, or Wordpress project quickly.
 [![Build Status](https://travis-ci.org/justintime50/build-project.svg?branch=master)](https://travis-ci.org/justintime50/build-project)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
-<img src="">
+<img src="assets/showcase.png">
 
 </div>
 
@@ -28,3 +28,39 @@ build-project
 ```
 
 Follow the prompts to build a variety of projects.
+
+## Roadmap of Feature Set
+
+General
+- Build Readme
+- Gitignore
+- Travis
+- License
+- Assets folder
+
+Git
+- Git init
+- Push to git
+- Git login
+
+Node
+- Add index.js
+- Add eslint
+- Configure eslint
+- Npm init
+- Install dependencies?
+- Npm install
+
+Laravel
+- Laravel new
+- composer.phar
+
+Docker
+- Setup docker containers
+    - Docker-compose/dockerfile
+- Database?
+
+Wordpress
+- Curl WP zip
+- Unzip
+- Open page
