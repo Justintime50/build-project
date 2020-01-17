@@ -18,7 +18,7 @@ Build Project can setup a variety of projects for you saving precious time when 
 ## Install
 
 ```bash
-npm i -g build-project
+npm i -g build-project-tool
 ```
 
 ## Usage

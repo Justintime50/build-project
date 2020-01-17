@@ -1,10 +1,14 @@
 {
-  "name": "build-project",
+  "name": "build-project-tool",
   "version": "0.1.0",
   "description": "Build a Laravel, Javascript, or Wordpress project quickly.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Justintime50/build-project.git"
   },
   "keywords": [
     "build",
