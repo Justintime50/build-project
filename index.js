@@ -1,12 +1,11 @@
 #!/usr/bin/env node
 
 // Import modules
-const files = require("./lib/files"); // TODO: remove if we don't actually use this.
 const chalk = require("chalk");
 const clear = require("clear");
 const figlet = require("figlet");
 const inquirer  = require("./lib/inquirer");
-const projectType = require("./lib/projectType")
+const general = require("./lib/general")
 
 // Setup our fancy terminal output
 clear();
@@ -16,12 +15,12 @@ console.log(
         figlet.textSync("Build Project", { horizontalLayout: "default" })
     ),
 );
-console.log("  Quickly build a Laravel, Javascript, or Wordpress project.\n");
+console.log("Built by Justintime50.\n\nSetup projects quickly such as Laravel, Node, and Wordpress.\n");
 
-// Prompt the user to build the Project
+// Run the main program flow
 const run = async () => {
-    const askProjectType = await inquirer.askProjectType();
-    projectType.projectType(askProjectType);
+    const askGeneralQuestions = await inquirer.askGeneralQuestions();
+    general.useGeneralQuestions(askGeneralQuestions);
 };
 
 run();
