@@ -15,17 +15,19 @@ Boilerplate setup for all your favorite languages and frameworks.
 
 Build Project can setup a variety of projects for you saving precious time when starting a new project. Build Project has the following features:
 
-1. Create a new directory
-1. Initiate a Git repo
-1. Generate a .gitignore file
-1. Generate a .travis.yml file
-1. Generate a LICENSE file
-1. Generate a Dockerfile & docker-compose.yml file
+1. Create a `new directory`
+1. Initiate a `git repo`
+1. Generate a `.gitignore file`
+1. Generate a `.travis.yml file`
+1. Generate a `LICENSE file`
+1. Generate a `Dockerfile` & `docker-compose.yml file`
 1. Setup your choice of project
-    - **Laravel:** Initiate a Laravel project and install packages
-    - **Node:** Initiate an NPM package.json file, index.js file, ESLint, and install packages
+    - **Laravel:** Initiate a Laravel project, install packages, publish the storage directory, and scaffold the authentication system.
+    - **Node:** Initiate an NPM `package.json` file, `index.js` file, and install ESLint
+    - **Python:** Create a `.py` file and a `requirements.txt` file with `pylint` included
     - **Wordpress:** Download and unzip Wordpress
     - **Shell:** Create a script file
+    - **Custom:** Build Project will not create an opinionated boilerplate
 
 ## Prerequisites
 
@@ -54,24 +56,13 @@ build-project
 
 Follow the prompts to build a variety of projects.
 
-## Roadmap of Feature Set
+## Roadmap
 
 This project is intended to replace [git-create](https://github.com/Justintime50/git-create) longterm.
 
-General
-- Build Readme
+The following are features that I intend to add.
 
-Git
-- Push to git
-- Git login
-
-Node
-- Configure eslint
-
-Python
-- Setup python file
-- Setup Python linting
-
-Laravel
-- Publish storage locally
-- Setup Auth
+- [Build Readme](https://github.com/Justintime50/build-readme) built in
+- Login to Github and push initial commit
+- Interactive package.json configuration
+- Configure ESLint
