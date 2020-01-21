@@ -1,6 +1,6 @@
 {
   "name": "build-project-tool",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Build a Laravel, Javascript, or Wordpress project quickly.",
   "main": "index.js",
   "scripts": {

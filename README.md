@@ -2,7 +2,7 @@
 
 # Build Project
 
-Setup projects quickly such as Laravel, Node, and Wordpress.
+Boilerplate setup for all your favorite languages and frameworks.
 
 [![Build Status](https://travis-ci.org/justintime50/build-project.svg?branch=master)](https://travis-ci.org/justintime50/build-project)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
@@ -17,10 +17,15 @@ Build Project can setup a variety of projects for you saving precious time when 
 
 1. Create a new directory
 1. Initiate a Git repo
+1. Generate a .gitignore file
+1. Generate a .travis.yml file
+1. Generate a LICENSE file
+1. Generate a Dockerfile & docker-compose.yml file
 1. Setup your choice of project
-    - Initiate an NPM package.json file, index.js file, ESLint, and install packages
-    - Initiate a Laravel project and install packages
-    - Download and unzip Wordpress
+    - **Laravel:** Initiate a Laravel project and install packages
+    - **Node:** Initiate an NPM package.json file, index.js file, ESLint, and install packages
+    - **Wordpress:** Download and unzip Wordpress
+    - **Shell:** Create a script file
 
 ## Prerequisites
 
@@ -39,7 +44,11 @@ npm i -g build-project-tool
 
 ## Usage
 
+Navigate to the folder where you want to create your project, then run the command:
+
 ```bash
+cd ~/git
+
 build-project
 ```
 
@@ -51,9 +60,6 @@ This project is intended to replace [git-create](https://github.com/Justintime50
 
 General
 - Build Readme
-- Gitignore
-- Travis
-- License
 
 Git
 - Push to git
@@ -62,10 +68,10 @@ Git
 Node
 - Configure eslint
 
-Laravel
-- composer.phar
+Python
+- Setup python file
+- Setup Python linting
 
-Docker
-- Setup docker containers
-    - Docker-compose/dockerfile
-- Database?
+Laravel
+- Publish storage locally
+- Setup Auth

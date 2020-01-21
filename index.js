@@ -15,7 +15,7 @@ console.log(
         figlet.textSync("Build Project", { horizontalLayout: "default" })
     ),
 );
-console.log("Built by Justintime50.\n\nSetup projects quickly such as Laravel, Node, and Wordpress.\n");
+console.log("Boilerplate setup for all your favorite languages and frameworks.\n");
 
 // Run the main program flow
 const run = async () => {
