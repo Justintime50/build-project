@@ -56,13 +56,10 @@ build-project
 
 Follow the prompts to build a variety of projects.
 
-## Roadmap
+## Development
 
-This project is intended to replace [git-create](https://github.com/Justintime50/git-create) longterm.
+Run linting:
 
-The following are features that I intend to add.
-
-- [Build Readme](https://github.com/Justintime50/build-readme) built in
-- Login to Github and push initial commit
-- Interactive package.json configuration
-- Configure ESLint
+```bash
+npx eslint index.js
+```
