@@ -4,7 +4,7 @@
 
 Boilerplate setup for all your favorite languages and frameworks.
 
-[![Build Status](https://travis-ci.org/justintime50/build-project.svg?branch=master)](https://travis-ci.org/justintime50/build-project)
+[![Build Status](https://travis-ci.com/justintime50/build-project.svg?branch=master)](https://travis-ci.com/justintime50/build-project)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 <img src="assets/showcase.png">
