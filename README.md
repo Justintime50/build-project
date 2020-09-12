@@ -5,7 +5,9 @@
 Boilerplate setup for all your favorite languages and frameworks.
 
 [![Build Status](https://travis-ci.com/justintime50/build-project.svg?branch=master)](https://travis-ci.com/justintime50/build-project)
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+[![Coverage Status](https://coveralls.io/repos/github/Justintime50/build-project/badge.svg?branch=master)](https://coveralls.io/github/Justintime50/build-project?branch=master)
+[![NPM](https://img.shields.io/npm/v/build-project-tool)](https://www.npmjs.com/package/build-project-tool)
+[![Licence](https://img.shields.io/github/license/justintime50/build-project)](LICENSE)
 
 <img src="assets/showcase.png">
 
@@ -31,11 +33,12 @@ Build Project can setup a variety of projects for you saving precious time when 
 
 ## Prerequisites
 
-Build Project requires the following for certain pieces of the tool. Without them, your builds may fail.
+Build Project requires the following for certain features of the tool. Without them, your builds may fail.
 
 - Git
 - Node/NPM
 - PHP/Composer
+- Python
 - Curl
 
 ## Install
@@ -49,8 +52,6 @@ npm i -g build-project-tool
 Navigate to the folder where you want to create your project, then run the command:
 
 ```bash
-cd ~/git
-
 build-project
 ```
 
@@ -58,8 +59,13 @@ Follow the prompts to build a variety of projects.
 
 ## Development
 
-Run linting:
+```shell
+# Install the project locally
+npm i
 
-```bash
+# Lint files
 npx eslint index.js
+
+# Run tests
+npm run test
 ```
