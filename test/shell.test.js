@@ -16,7 +16,7 @@ describe('#buildShellProject', function () {
 
 // describe('#directoryExists', function () {
 //     it('returns the result of checking a directory', function () {
-//         const result = files.directoryExists('./')
+//         const result = filesystem.directoryExists('./')
 //         assert.equal(result, true);
 //     });
 // });
