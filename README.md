@@ -2,7 +2,7 @@
 
 # Build Project
 
-Boilerplate setup for all your favorite languages and frameworks.
+Opinionated boilerplate setup for all your favorite languages and frameworks.
 
 [![Build Status](https://travis-ci.com/justintime50/build-project.svg?branch=master)](https://travis-ci.com/justintime50/build-project)
 [![Coverage Status](https://coveralls.io/repos/github/Justintime50/build-project/badge.svg?branch=master)](https://coveralls.io/github/Justintime50/build-project?branch=master)

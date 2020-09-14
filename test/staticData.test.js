@@ -28,3 +28,9 @@ describe('Python setup.py contents', function () {
         assert.include(staticData.setupPy, 'import setuptools')
     });
 });
+
+describe('Node package.json contents', function () {
+    it('returns the contents of the Node package.json file', function () {
+        assert.include(staticData.nodePackage, '"name": ""')
+    });
+});
