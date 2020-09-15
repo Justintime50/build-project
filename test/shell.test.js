@@ -4,7 +4,7 @@ const shell = require('../lib/buildShell')
 
 describe('#buildShellProject', function () {
     it('returns true if a shell project is generated', async function () {
-        const result = await shell.buildShellProject('test/files')
+        const result = await shell.buildShellProject('test/temp')
         assert.equal(result, 'Shell project built successfully!');
     });
 

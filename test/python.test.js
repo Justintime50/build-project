@@ -4,7 +4,7 @@ const shell = require('../lib/buildPython')
 
 describe('#buildPythonProject', function () {
     it('returns true if a Python project is generated', async function () {
-        const result = await shell.buildPythonProject('test/files')
+        const result = await shell.buildPythonProject('test/temp')
         assert.equal(result, 'Python project built successfully!');
     });
 });

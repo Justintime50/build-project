@@ -7,7 +7,7 @@ describe('#buildLaravelProject', function () {
         // TODO: Mock this as running the Laravel commands takes 30+ seconds to run
         // Skipping for now...
         this.timeout(60000); // This isn't great for fast unit testing
-        const result = await laravel.buildLaravelProject('test/files')
+        const result = await laravel.buildLaravelProject('test/temp')
         assert.include(result, 'Laravel project built successfully!');
     });
 });

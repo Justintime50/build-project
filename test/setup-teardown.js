@@ -2,9 +2,9 @@
 const filesystem = require('../lib/filesystem')
 
 before(async () => {
-    await filesystem.createDir('./test/files')
+    await filesystem.createDir('./test/temp')
 });
 
 after(async () => {
-    await filesystem.removeDir('./test/files')
+    await filesystem.removeDir('./test/temp')
 });
