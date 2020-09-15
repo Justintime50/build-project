@@ -2,6 +2,8 @@
 const assert = require('chai').assert
 const filesystem = require('../lib/filesystem')
 
+const testDir = 'test/temp'
+
 describe('#getCurrentDirectoryBase', function () {
     it('returns the base directory of a path', function () {
         const result = filesystem.getCurrentDirectoryBase('./')
@@ -25,7 +27,7 @@ describe('#createFile', function () {
 
 describe('#createDir', function () {
     it('returns true if a dir can be created', async function () {
-        const result = await filesystem.createDir('test/temp/test-created-dir')
+        const result = await filesystem.createDir(`${testDir}/test-created-dir`)
         assert.equal(result, true);
     });
 
@@ -40,7 +42,7 @@ describe('#removeDir', function () {
         // TODO: According to https://nodejs.org/api/fs.html#fs_fs_rmdir_path_options_callback
         // fs.rmdir does not return an error when using the recursive option
         // and as such, this cannot be easily tested without more tweaking. Correct in the longterm
-        const result = await filesystem.removeDir('test/temp/some-dir-that-does-not-exist')
+        const result = await filesystem.removeDir(`${testDir}/some-dir-that-does-not-exist`)
         assert.include(result, undefined);
     });
 });
