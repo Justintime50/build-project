@@ -17,7 +17,7 @@ describe('Docker file contents', function () {
         assert.include(staticData.laravelDockerfile, 'FROM justintime50/nginx-php:7.4')
     });
 
-    it('returns the contents of the docker-compose file', function () {
+    it('returns the contents of the docker-compose.yml file', function () {
         assert.include(staticData.laravelDockerCompose, 'myservice:')
         assert.include(staticData.laravelDockerCompose, 'db:')
     });
