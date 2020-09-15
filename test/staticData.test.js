@@ -31,6 +31,6 @@ describe('Python setup.py contents', function () {
 
 describe('Node package.json contents', function () {
     it('returns the contents of the Node package.json file', function () {
-        assert.include(staticData.nodePackage, '"name": ""')
+        assert.include(staticData.nodePackage, '"name": "project-name"')
     });
 });

@@ -22,14 +22,14 @@ Build Project can setup a variety of projects for you saving precious time when 
 1. Generate a `.gitignore file`
 1. Generate a `.travis.yml file`
 1. Generate a `LICENSE file`
-1. Generate a `Dockerfile` & `docker-compose.yml file`
+1. Generate a `Dockerfile` and/or `docker-compose.yml file`
 1. Setup your choice of project
     - **Laravel:** Initiate a Laravel project, install packages, publish the storage directory, and scaffold the authentication system.
-    - **Node:** Initiate an NPM `package.json` file, `index.js` file, and install ESLint
-    - **Python:** Create a `.py` file and a `requirements.txt` file with `pylint` included
-    - **Wordpress:** Download and unzip Wordpress
-    - **Shell:** Create a script file
-    - **Custom:** Build Project will not create an opinionated boilerplate
+    - **Node:** Initiate an NPM `package.json` file, `index.js` file, and install dev dependencies such as `eslint`, `mocha`, `coveralls`, and more.
+    - **Python:** Create an `__init__.py` file and a `setup.py` file with dev dependencies such as `flake8`, `pytest`, and more.
+    - **Wordpress:** Download and unzip Wordpress.
+    - **Shell:** Create an executable script file.
+    - **Custom:** Build Project will not create an opinionated boilerplate.
 
 ## Prerequisites
 

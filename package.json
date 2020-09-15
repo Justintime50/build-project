@@ -16,14 +16,15 @@
     "build",
     "project",
     "laravel",
-    "npm",
+    "node",
     "wordpress",
-    "javascript"
+    "javascript",
+    "shell",
+    "python"
   ],
   "author": "Justintime50",
   "license": "MIT",
   "dependencies": {
-    "build-readme": "^1.2.0",
     "chalk": "^3.0.0",
     "clear": "^0.1.0",
     "figlet": "^1.2.4",
