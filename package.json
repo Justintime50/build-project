@@ -1,10 +1,12 @@
 {
   "name": "build-project-tool",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "description": "Build a Laravel, Javascript, or Wordpress project quickly.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "_mocha",
+    "coverage": "nyc --reporter=html --reporter=text npm run test",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -14,14 +16,15 @@
     "build",
     "project",
     "laravel",
-    "npm",
+    "node",
     "wordpress",
-    "javascript"
+    "javascript",
+    "shell",
+    "python"
   ],
   "author": "Justintime50",
   "license": "MIT",
   "dependencies": {
-    "build-readme": "^1.1.1",
     "chalk": "^3.0.0",
     "clear": "^0.1.0",
     "figlet": "^1.2.4",
@@ -29,7 +32,11 @@
     "inquirer": "^7.0.3"
   },
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "chai": "^4.2.0",
+    "coveralls": "^3.1.0",
+    "eslint": "^6.8.0",
+    "mocha": "^8.1.1",
+    "nyc": "^15.1.0"
   },
   "bin": {
     "build-project": "./index.js"
