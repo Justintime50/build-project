@@ -14,7 +14,7 @@ describe('License contents', function () {
 
 describe('Docker file contents', function () {
     it('returns the contents of the Dockerfile', function () {
-        assert.include(staticData.laravelDockerfile, 'FROM justintime50/nginx-php:7.4')
+        assert.include(staticData.laravelDockerfile, 'FROM justintime50/nginx-php:8.0')
     });
 
     it('returns the contents of the docker-compose.yml file', function () {

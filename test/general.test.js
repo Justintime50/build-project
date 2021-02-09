@@ -38,10 +38,10 @@ describe('#createGitIgnore', function () {
     });
 });
 
-describe('#createTravisYml', function () {
-    it('returns true if a travis.yml file is created', async function () {
-        const result = await general.createTravisYml(testDir)
-        assert.equal(result, '".travis.yml" file created!');
+describe('#createReadme', function () {
+    it('returns true if a README.md file is created', async function () {
+        const result = await general.createReadme(testDir)
+        assert.equal(result, '"README.md" file created!');
     });
 });
 

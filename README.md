@@ -4,12 +4,12 @@
 
 Opinionated boilerplate setup for all your favorite languages and frameworks.
 
-[![Build Status](https://travis-ci.com/justintime50/build-project.svg?branch=master)](https://travis-ci.com/justintime50/build-project)
+[![Build Status](https://github.com/Justintime50/build-project/workflows/build/badge.svg)](https://github.com/Justintime50/build-project/actions)
 [![Coverage Status](https://coveralls.io/repos/github/Justintime50/build-project/badge.svg?branch=master)](https://coveralls.io/github/Justintime50/build-project?branch=master)
 [![NPM](https://img.shields.io/npm/v/build-project-tool)](https://www.npmjs.com/package/build-project-tool)
 [![Licence](https://img.shields.io/github/license/justintime50/build-project)](LICENSE)
 
-<img src="assets/showcase.png">
+<img src="assets/showcase.png" alt="Showcase">
 
 </div>
 
@@ -20,7 +20,7 @@ Build Project can setup a variety of projects for you saving precious time when 
 1. Create a `new directory`
 1. Initiate a `git repo`
 1. Generate a `.gitignore file`
-1. Generate a `.travis.yml file`
+1. Generate a `README.md file`
 1. Generate a `LICENSE file`
 1. Generate a `Dockerfile` and/or `docker-compose.yml file`
 1. Setup your choice of project

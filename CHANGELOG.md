@@ -1,6 +1,13 @@
 # CHANGELOG
 
-## v1.0.0 (09-14-2020)
+## v1.1.0 (2021-02-08)
+
+* Removed Travis CI file from template
+* Added README file to template
+* Swapped Travis CI for GitHub Actions
+* Bumped dependencies
+
+## v1.0.0 (2020-09-14)
 
 * Added unit tests and code coverage
 * Added automatic releasing via Travis
