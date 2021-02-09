@@ -33,7 +33,7 @@ describe('#createDir', function () {
 
     it('returns error if a dir cannot be created', async function () {
         const result = await filesystem.createDir('///////~.123')
-        assert.include(result.message, 'mkdir \'///////~.123\'');
+        assert.include(result.message, 'ENOENT');
     });
 });
 
