@@ -5,7 +5,7 @@
 Opinionated boilerplate setup for all your favorite languages and frameworks.
 
 [![Build Status](https://github.com/Justintime50/build-project/workflows/build/badge.svg)](https://github.com/Justintime50/build-project/actions)
-[![Coverage Status](https://coveralls.io/repos/github/Justintime50/build-project/badge.svg?branch=master)](https://coveralls.io/github/Justintime50/build-project?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/Justintime50/build-project/badge.svg?branch=main)](https://coveralls.io/github/Justintime50/build-project?branch=main)
 [![NPM](https://img.shields.io/npm/v/build-project-tool)](https://www.npmjs.com/package/build-project-tool)
 [![Licence](https://img.shields.io/github/license/justintime50/build-project)](LICENSE)
 
